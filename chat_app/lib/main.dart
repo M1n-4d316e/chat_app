@@ -1,5 +1,7 @@
-import 'package:chat_app/screens/chat_screen.dart';
+import 'package:chat_app/providers/auth_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:chat_app/screens/auth_screen.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: ChatScreen(),
+      home: ChangeNotifierProvider(
+        create: (context) => AuthProvider(),
+        child: const AuthScreen(),
+      ),
     );
   }
 }
