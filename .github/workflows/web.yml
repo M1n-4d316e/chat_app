@@ -14,4 +14,4 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           workingDir: /chat_app/.
-          baseHref: /chat_app/
+          baseHref: /test_chat_app/
