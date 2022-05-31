@@ -3,6 +3,8 @@ name: Gh-Pages
 on:
   push:
     branches: [ master ]
+    
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,5 +15,5 @@ jobs:
       - uses: subosito/flutter-action@v1
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          workingDir: /chat_app/.
+          workingDir: chat_app/.
           baseHref: /chat_app/
