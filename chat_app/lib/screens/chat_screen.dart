@@ -107,6 +107,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ),
           Container(
+            color: Colors.grey,
             padding: const EdgeInsets.symmetric(
               horizontal: 16,
             ),
@@ -117,6 +118,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     child: TextField(
                       controller: _messageInputController,
                       decoration: const InputDecoration(
+                        hintText: 'Type your message',
                         border: InputBorder.none,
                       ),
                     ),

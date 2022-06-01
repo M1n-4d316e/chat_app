@@ -58,12 +58,11 @@ class _AuthScreenState extends State<AuthScreen> {
                     ? Padding(
                         padding: const EdgeInsets.only(bottom: 30.0),
                         child: Card(
-                          color: Colors.red,
+                          color: Colors.grey,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
                               errorMessage,
-                              style: const TextStyle(color: Colors.white),
                             ),
                           ),
                         ),
