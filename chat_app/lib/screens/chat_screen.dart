@@ -42,7 +42,7 @@ class _ChatScreenState extends State<ChatScreen> {
   void initState() {
     super.initState();
     _socket = IO.io(
-      'http://localhost:3000',
+      'http://10.0.2.2:3000',
       IO.OptionBuilder().setTransports(['websocket']).setQuery(
           {'username': widget.username}).build(),
     );
