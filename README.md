@@ -17,11 +17,33 @@ npm install express
 npm install socket.io
 ```
 
-#### Front
+#### Client
 
 [Flutter get started](https://docs.flutter.dev/get-started/install)
 
 `flutter pug get` to download all the libraries inside "chat_app" folder.
+
+### Run
+
+#### Server
+
+```bash
+node server.js
+```
+
+#### Client
+
+Android:
+
+```bash
+flutter run
+```
+
+Web:
+
+```bash
+flutter run -d chrome
+```
 
 ### Configuration
 
@@ -29,7 +51,7 @@ npm install socket.io
 
 To change the server port, go to [server.js](https://github.com/M1n-4d316e/chat_app/blob/main/server/server.js) in **line 24**.
 
-#### Front
+#### Client
 
 To change the server ip and port on the front, go to [chat_screen.dart](https://github.com/M1n-4d316e/chat_app/blob/main/chat_app/lib/screens/chat_screen.dart) in **line 45**.
 
@@ -55,6 +77,28 @@ npm install socket.io
 [Flutter get started](https://docs.flutter.dev/get-started/install)
 
 `flutter pug get` para descargar todas la librerías, tienes que hacerlo dentro de la carpeta "chat_app".
+
+### Ejecutar
+
+#### Servidor
+
+```bash
+node server.js
+```
+
+#### Cliente
+
+Android:
+
+```bash
+flutter run
+```
+
+Web:
+
+```bash
+flutter run -d chrome
+```
 
 ### Configuration
 
