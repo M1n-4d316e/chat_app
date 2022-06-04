@@ -15,8 +15,7 @@ There's a **[Dummy chat](https://m1n-4d316e.github.io/chat_app/) (Non-functional
 [Node download page](https://nodejs.org/es/)
 
 ```shell
-npm install express
-npm install socket.io
+npm install express socket.io
 ```
 
 #### Client
@@ -72,8 +71,7 @@ Hay un chat **[no funcional](https://m1n-4d316e.github.io/chat_app/)** al cual l
 [Node download page](https://nodejs.org/es/)
 
 ```shell
-npm install express
-npm install socket.io
+npm install express socket.io
 ```
 
 #### Cliente
