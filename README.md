@@ -113,3 +113,15 @@ Para cambiar el puerto del servidor, vete a [server.js](https://github.com/M1n-4
 #### Cliente
 
 Para cambiar el puerto del servidor y la ip de dicho server al cual te conectas, vete a [chat_screen.dart](https://github.com/M1n-4d316e/chat_app/blob/main/chat_app/lib/screens/chat_screen.dart) en la **linea 45**.
+
+
+
+# Links
+
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+[Gitmoji](https://gitmoji.dev/)
+
+[Socket.IO](https://socket.io/)
+
+[Flutter](https://flutter.dev/)
