@@ -6,7 +6,7 @@ This is my local chat app.
 
 There's a **[Dummy chat](https://m1n-4d316e.github.io/chat_app/) (Non-functional)** that lack the server side, it's only the front, for you to see. Usually takes a wile to charge.
 
-# 2 **<u>Attention!</u>**. As of right now on the web app the name input is too large. I didn't found a way to fix it , This is a multi-platform app so this issue cant be solver easily
+#2 **<u>Attention!</u>**. As of right now on the web app the name input is too large. I didn't found a way to fix it , This is a multi-platform app so this issue cant be solver easily
 
 ### Setup
 
@@ -63,7 +63,7 @@ Esta es mi app de chat local.
 
 Hay un chat **[no funcional](https://m1n-4d316e.github.io/chat_app/)** al cual le falta el servidor, por si se quiere ver una preview. Normalmente tarda un poco en cargar.
 
-# 2 **<u>Atención!</u>**. Por ahora el campo en donde se escribe el nombre es demasiado largo en la parte web. Aun no he encontrado la forma de arreglarlo. Esta es una aplicación multi-plataforma asi que no es tan facil como parece
+#2 **<u>Atención!</u>**. Por ahora el campo en donde se escribe el nombre es demasiado largo en la parte web. Aun no he encontrado la forma de arreglarlo. Esta es una aplicación multi-plataforma asi que no es tan facil como parece
 
 ### Setup
 
